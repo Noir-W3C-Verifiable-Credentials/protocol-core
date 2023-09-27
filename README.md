@@ -1,4 +1,4 @@
-# Noir-Ziden
+# Noir-W3C-Verifiable-Credentials
 
 This is the proof-of-concept project of the Privacy-Preserving W3C verifiable credentials protocol with circuits written in Noir
 
