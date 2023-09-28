@@ -2,7 +2,7 @@
 
 This is the proof-of-concept project of the Privacy-Preserving W3C verifiable credentials protocol with circuits written in Noir
 
-In this first version contains completent Noir circuits, test scripts as well as the TS scripts that serve the protocol's logic as specified in the [Protocol-specs](https://github.com/ziden-dev/Noir-Ziden/tree/main/specs)
+In this first version contains completent Noir circuits, test scripts as well as the TS scripts that serve the protocol's logic as specified in the [Protocol-specs](https://github.com/Noir-W3C-Verifiable-Credentials/protocol-core/tree/main/specs)
 
 ## Components
 
@@ -14,7 +14,7 @@ They are core data structure of the protocol, enabling succinct membership and n
 - Non-membership check
 - Single insertion
 
-[See circuit](https://github.com/ziden-dev/Noir-Ziden/blob/main/src/circuits/noirlib/src/indexed_merkle_tree.nr)
+[See circuit](https://github.com/Noir-W3C-Verifiable-Credentials/protocol-core/blob/main/src/circuits/noirlib/src/indexed_merkle_tree.nr)
 
 Upcoming features:
 
@@ -30,11 +30,11 @@ Digital signatures are used in the protocol as a principal authorization mechani
 
 ### 3. Protocol circuits
 
-- [Claim](https://github.com/ziden-dev/Noir-Ziden/blob/main/src/circuits/noirlib/src/claim.nr)
+- [Claim](https://github.com/Noir-W3C-Verifiable-Credentials/protocol-core/blob/main/src/circuits/noirlib/src/claim.nr)
 
-- [Identity State](https://github.com/ziden-dev/Noir-Ziden/blob/main/src/circuits/noirlib/src/state_transition.nr)
+- [Identity State](https://github.com/Noir-W3C-Verifiable-Credentials/protocol-core/blob/main/src/circuits/noirlib/src/state_transition.nr)
 
-- [Claim Presentation](https://github.com/ziden-dev/Noir-Ziden/blob/main/src/circuits/noirlib/src/claim_presentation.nr)
+- [Claim Presentation](https://github.com/Noir-W3C-Verifiable-Credentials/protocol-core/blob/main/src/circuits/noirlib/src/claim_presentation.nr)
 
 ## Run our code
 
